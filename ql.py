@@ -22,9 +22,9 @@ ojo_med.mode = 'COL-REFLECT'
 # --- Constantes ---
 VER_NEGRO = 20   
 VER_LIMITE = 40  
-VEL_ALTA = 40    
-VEL_MEDIA = 20
-VEL_BAJA = 10
+VEL_ALTA = -40    
+VEL_MEDIA = -20
+VEL_BAJA = -10
 
 # --- Definición del Entorno ---
 N_ESTADOS = 4
