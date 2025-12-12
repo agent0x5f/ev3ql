@@ -63,12 +63,12 @@ def avanza():
 
 def giraizq():
     # Pivote sobre una rueda o giro inverso
-    motor_izq.on(-VEL_MEDIA)
-    motor_der.on(VEL_ALTA)
+    motor_izq.on(VEL_MEDIA)
+    motor_der.on(-VEL_ALTA)
 
 def girader():
-    motor_izq.on(VEL_ALTA)
-    motor_der.on(-VEL_MEDIA)
+    motor_izq.on(-VEL_ALTA)
+    motor_der.on(VEL_MEDIA)
 
 def ev3action(accion):
     if accion == 0:
